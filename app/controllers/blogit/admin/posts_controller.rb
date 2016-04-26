@@ -11,7 +11,7 @@ module Blogit
       end
 
       # If a layout is specified, use that. Otherwise, fall back to the default
-      layout Blogit.configuration.layout if Blogit.configuration.layout
+      layout Blogit.configuration.admin_layout if Blogit.configuration.admin_layout
 
       helper Blogit::PostsHelper
 
